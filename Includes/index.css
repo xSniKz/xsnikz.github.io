@@ -1,0 +1,449 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#222222;
+}
+
+header { 
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	position: absolute;
+	z-index: 2;
+	left: 0px;
+	top:0px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+p {
+    color:#E3C34A;
+}
+
+form.vehiculo {
+    font-size:10px;
+    margin-left:500px;
+	margin-bottom: 100px;
+}
+
+label {
+    color: #E3C34A;
+}
+
+label.titulo {
+    font-size: 30px;
+}
+
+label.contacto {
+	font-size: 20px;
+}
+
+span {
+    text-shadow: 3px 3px 1px black;
+}
+
+span.oferta {
+    font-size: 70px;
+}
+
+span.titulo {
+    font-size: 30px;
+}
+
+span.pequeño {
+    font-size: 20px
+}
+
+input.boton {
+    width: 80px;
+    height: 40px;
+    background-color:#E3C34A;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+}
+
+input.vehiculo {
+    width: 120px;
+    height: 40px;
+    background-color:#E3C34A;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+}
+
+iframe.video {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 200px;
+	width: 1000px;
+	height: 600px;
+}
+
+button.vehiculo {
+    width: 120px;
+    height: 40px;
+    background-color:#E3C34A;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+}
+
+img.redes{
+	 width:70px;
+}
+
+img.vehiculo {
+    float:left;
+	width:400px;
+}
+
+img.logo {
+	margin-left: -40px;
+	top: 2px;
+}
+
+img.menu {
+	position: absolute;
+	top: -75px;
+	right: 10px;
+	width: 170px;
+}
+
+ul{
+	padding: 8px;
+}
+
+li {
+	list-style: none;
+	padding: 8px;	
+	font-size: 16px;
+	font-weight: bold;
+}
+
+ul.desplegable {
+	position: absolute;
+	height: 100%;
+	width: 200px;
+	top:20px;
+	right: 0px;
+	text-align: center;
+	background-color:#E3C34A;
+	z-index: 1;
+	padding: 5px;
+	transform: translateY(-1000px);
+}
+
+li:hover {
+	background-color:#F6D77C;
+}
+
+li.titulo:hover {
+	background-color:#E3C34A;
+}
+
+div ul {
+	transition: 0.5s;
+}
+
+div:hover ul {
+	transform: translateY(0px);
+	transition: 0.5s;
+}
+
+div.ofertas {
+	width: 1350px;
+	height: 600px;
+	margin-top: 200px;
+	margin-left: 100px;
+}
+
+div.coche {
+	width: 700px;
+	height: 400px;
+	margin-top: -600px;
+	margin-left: 700px;
+}
+
+div.video {
+	width: 600px;
+	height: 600px;
+    font-size: 32px;
+    font-weight: bold;
+    color:#E3C34A;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+div.mapa {
+	width: 1200px;
+	height: 600px;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+
+div.desplegable {
+	text-align: right;
+	position: absolute;
+	right:0px;
+	top:84px;
+	z-index: 3;
+}
+
+div.marcas {
+    width:1700px;
+    height:1700px;
+	margin-top: 100px;
+}
+
+div.marca1 {
+    width:500px;
+    height:400px;
+    margin-left: 30px;
+    margin-bottom:30px;
+    float:left;
+    text-align: center;
+}
+
+div.texto {
+    font-size: 20px;
+    font-weight: bold;
+	margin-top: 190px;
+	margin-left: 100px;
+}
+
+div.ubicacion {
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+}
+
+div.contacto {
+    margin-top: 180px;
+	margin-left: 70px;
+	margin-bottom: 100px;
+}
+
+div.vehiculo {
+	margin-top: 150px;
+	margin-left: 50px;
+	margin-bottom: 100px;
+}
+
+div.oferta {
+    font-size: 32px;
+    font-weight: bold;
+    color:#E3C34A;
+    padding-top: 50px;
+    margin-left: 1020px;
+}
+
+footer {
+	width: 100%;
+	height: 300px;
+	background-color: black;	
+}
+
+div.footer {
+	float: left;
+	width: 200px;
+	height: 100px;
+	margin-top: 150px;
+	margin-left: 100px;
+	color:#E3C34A;
+}
+
+img.logopequeño {
+	margin-top:40px;
+	margin-left: 400px;
+	animation: giro 5s infinite;
+}
+
+@keyframes giro {
+	0%{transform:rotateY(30deg);}
+	100%{transform: rotateY(-30deg);}
+}
+
+div.footer1 {
+	width: 100px;
+	height: 100px;
+	margin-left: 690px;
+	margin-top: 50px;
+}
+
+div.footer2 {
+	float: left;
+	width: 240px;
+	height: 100px;
+	margin-left: 900px;
+	margin-top: -120px;
+}
+
+
+
+
+@media screen and (max-width:320px){
+	
+	header {
+		height: 70px;
+	}
+	
+	img.logo {
+		width:160px;
+		margin-top: 10px;
+		margin-left: -18px;
+	}
+	
+	img.menu {
+		width: 100px;
+		margin-top:10px;
+	}
+	
+	img.javi1{
+		width:200px; 
+		position: absolute;
+		left: 58px;
+		top: 140px;
+	}
+	span.oferta{
+		font-size: 20px;
+		position:absolute; 
+		left: 58px; 
+		margin-top: 10px;
+	}
+	span.bmw{
+		font-size: 10px; 
+		position:absolute; 
+		left: 58px;
+	}
+	
+	img.supra{
+		position: absolute;
+		left: 58px;
+		width: 200px;
+		top: 400px;	
+	}
+	
+	span.oferta1{
+		font-size: 15px;
+		position:absolute; 
+		left: 58px; 
+		top:527px;
+	}
+	
+	span.supra{
+		font-size: 15px; 
+		position: absolute; 
+		left: 58px;
+		top: 550px;
+	}
+	
+	div.video{
+		height: 200px;
+	}
+	
+	iframe.video{
+		width: 250px;
+		height: 150px;
+		position: absolute;
+		top: 570px;
+		left: -160px;
+	}
+	footer{
+		width: 100%;
+		height: 200px;
+	}
+	
+	div.footer{
+		font-size: 10px;
+		margin-left: 12px;
+		margin-top: 90px;
+	}
+	
+
+	
+	div.footer2{
+		margin-left: 170px;
+		margin-top:-110px;
+	}
+	
+	img.logopequeño {
+		display:none;
+	}
+	
+	img.marcas {
+		width: 200px;
+	}
+	
+	img.redes{
+		width: 30px;
+	}
+	
+	div.marca1 {
+		width: 100px;
+		margin-left: 60px;
+		margin-bottom: -120px;
+		float:none;
+	}
+	
+	img.marca {
+		width:200px;
+	}
+	
+	footer.marca {
+		margin-top: 500px;
+	}
+	
+	div.texto{
+		font-size: 10px;
+		margin-left: 10px;
+		margin-top: 100px;
+	}
+	
+	iframe.mapax {
+		margin-left: -100px;
+		width: 300px;
+		height:220px;
+	}
+	
+	div.contacto {
+		font-size: 10px;
+		margin-left:10px;
+		margin-top: 100px;
+	}
+	
+	label.contacto {
+		font-size: 10px;
+	}
+	
+	textarea {
+		width: 270px;
+		height: 100px;
+	}
+	
+	div.vehiculo {
+		margin-left: 10px;
+		float: none;
+	}
+	
+	img.vehiculo {
+		width: 280px;
+	}
+	
+	form.vehiculo {
+		margin-left: 0px;
+	}
+	
+	label.titulo {
+		font-size: 20px;
+	}
+	
+	img.button {
+		width: 135px;
+		margin-bottom: -50px;
+	}
+	
+}
+	

@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="Includes/formulario.css">
+<title>Crear Anuncio</title>
+</head>
+<body>
+	<p class="titulo">Datos del Vehículo</p>
+	<form class="datos">
+		<label>Imagen</label>
+			<input type="file" name="imagen">
+	<br>
+	<br>
+		<label>Marca</label>
+			<select name="marcas" required>
+				<option value="ferrari">ferrari</option>
+				<option value="lamborghini">lamborghini</option>
+				<option value="porsche">porsche</option>
+				<option value="nissan">nissan</option>
+				<option value="toyota">toyota</option>
+				<option value="audi">audi</option>
+				<option value="mercedes">mercedes</option>
+				<option value="bmw">bmw</option>
+			</select>
+	<br>
+	<br>
+		<label>Modelo</label>
+			<input type="text">
+	<br>
+	<br>
+		<label>Año</label>
+			<input type="text" pattern="[0-9]{4}">
+	<br>
+	<br>
+		<label>Kilometros</label>
+			<input type="text" pattern="[0-9]+">
+	<br>
+	<br>
+		<label>Tipo de combustible</label>
+			<select name="combustible">
+				<option value="gasolina">gasolina</option>
+				<option value="diésel">diésel</option>
+				<option value="eléctrico">eléctrico</option>				
+			</select>
+	<br>
+	<br>
+		<label>Precio</label>
+			<input type="text" pattern="[0-9]+">
+	<br>
+	<br>
+		<input type="submit" value="Publicar Vehiculo">
+		<input type="reset" value="Borrar Datos">
+		
+	</form>
+</body>
+</html>
